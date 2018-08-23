@@ -1,0 +1,117 @@
+AUTHOR,YEAR,TITLE,MODEL,METHOD,BIOFUEL,FEEDSTOCK,TYPE,MEAN,MIN,MAX
+Acquaye,2011,Identification of 'Carbon Hot-Spots' and Quantification of GHG Intensities in the Biodiesel Supply Chain Using Hybrid LCA and Structural Path Analysis,Hybrid LCA,LCA,Biodiesel,Rapeseed,ILUC,33,14,42
+Acquaye,2012,Biofuels and their potential to aid the UK towards achieving emissions reduction policy targets,Hybrid LCA,LCA,1st generation ethanol,Sugarcane,ILUC,18,,
+Acquaye,2012,Biofuels and their potential to aid the UK towards achieving emissions reduction policy targets,Hybrid LCA,LCA,1st generation ethanol,Maize,ILUC,22,,
+Acquaye,2012,Biofuels and their potential to aid the UK towards achieving emissions reduction policy targets,Hybrid LCA,LCA,1st generation ethanol,Sugarbeet,ILUC,4,,
+Acquaye,2012,Biofuels and their potential to aid the UK towards achieving emissions reduction policy targets,Hybrid LCA,LCA,Biodiesel,Rapeseed,ILUC,31,,
+Acquaye,2012,Biofuels and their potential to aid the UK towards achieving emissions reduction policy targets,Hybrid LCA,LCA,Biodiesel,Soybean,ILUC,21,,
+Acquaye,2012,Biofuels and their potential to aid the UK towards achieving emissions reduction policy targets,Hybrid LCA,LCA,Biodiesel,Palm,ILUC,9,,
+Acquaye,2012,Biofuels and their potential to aid the UK towards achieving emissions reduction policy targets,Hybrid LCA,LCA,Biodiesel,Waste Cooking Oil,ILUC,0,,
+Al-Riffai,2010,Global Trade and Environmental Impacts Study of the EU biofuel Mandate,MIRAGE,CGE,Biodiesel,Rapeseed,ILUC,52,51,54
+Al-Riffai,2010,Global Trade and Environmental Impacts Study of the EU biofuel Mandate,MIRAGE,CGE,Biodiesel,Soybean,ILUC,71,67,75
+Al-Riffai,2010,Global Trade and Environmental Impacts Study of the EU biofuel Mandate,MIRAGE,CGE,Biodiesel,Sunflower,ILUC,58,56,61
+Al-Riffai,2010,Global trade and environmental impact study of the EU biofuels mandate,IFPRI-MIRAGE,CGE,1st generation ethanol,Sugarcane,ILUC,,18,19
+Al-Riffai,2010,Global trade and environmental impact study of the EU biofuels mandate,IFPRI-MIRAGE,CGE,1st generation ethanol,Maize,ILUC,67,54,79
+Al-Riffai,2010,Global trade and environmental impact study of the EU biofuels mandate,IFPRI-MIRAGE,CGE,1st generation ethanol,Wheat,ILUC,27,16,37
+Al-Riffai,2010,Global trade and environmental impact study of the EU biofuels mandate,IFPRI-MIRAGE,CGE,1st generation ethanol,Sugarbeet,ILUC,41,16,65
+Al-Riffai,2010,Global trade and environmental impact study of the EU biofuels mandate,IFPRI-MIRAGE,CGE,Biodiesel,Palm,ILUC,47,45,50
+Baral,2016,Additional supporting evidence for significant iLUC emissions of oilseed rape biodiesel production in the EU based on causal descriptive modeling approach,Causal-Descriptive Model,CD,Biodiesel,Rapeseed,ILUC,55,18,101
+Bento,2014,Climate Policy Decisions Require Policy-Based Lifecycle Analysis,Hybrid LCA,LCA,1st generation ethanol,Maize,ILUC,33,30,35
+Boldrin,2015,GHG sustainability compliance of rapeseed-based biofuels produced in a Danish multi-output biorefinery system,LCA,LCA,Biodiesel,Rapeseed,ILUC,54,29,79
+CARB,2009,Proposed Regulation to Implement the Low Carbon Fuel standard Volume 1,GTAP,CGE,1st generation ethanol,Sugarcane,ILUC,46,32,57
+CARB,2009,Proposed Regulation to Implement the Low Carbon Fuel standard Volume 1,GTAP,CGE,1st generation ethanol,Maize,ILUC,30,18,44
+CARB,2009,Proposed Regulation to Implement the Low Carbon Fuel standard Volume 1,GTAP,CGE,Biodiesel,Soybean,ILUC,42,27,51
+CARB,2014,Proposed re-adoption of the low carbon fuel standard,GTAP-BIO,CGE,Biodiesel,Palm,ILUC,,71,73
+CARB,2014,Proposed re-adoption of the low carbon fuel standard,GTAP-BIO,CGE,1st generation ethanol,Sugarcane,ILUC,,12,14
+CARB,2014,Proposed re-adoption of the low carbon fuel standard,GTAP-BIO,CGE,1st generation ethanol,Maize,ILUC,,20,22
+CARB,2014,Proposed re-adoption of the low carbon fuel standard,GTAP-BIO,CGE,1st generation ethanol,Sorghum,ILUC,,19,23
+CARB,2014,Proposed re-adoption of the low carbon fuel standard,GTAP-BIO,CGE,Biodiesel,Soybean,ILUC,,27,29
+Dumortier,2011,Sensitivity of carbon emission estimates from indirect land-use change,CARD-GreenAgsSim,PE,1st generation ethanol,Maize,ILUC,92,98,86
+Dunkelberg,2014,A case-study approach to quantifying indirect land-use change due to expanding biofuels feedstock cultivation,Case Study,Empirical,1st generation ethanol,Sugarcane,ILUC,73,1,144
+Edwards,2010,Indirect Land Use Change from increased biofuels demand,FAPRI-CARD,PE,Biodiesel,Rapeseed,LUC,222,,
+Edwards,2010,Indirect Land Use Change from increased biofuels demand,GTAP,CGE,1st generation ethanol,Maize,LUC,62,,
+Edwards,2010,Indirect Land Use Change from increased biofuels demand,FAPRI-CARD,PE,1st generation ethanol,Wheat,LUC,16,,
+Edwards,2010,Indirect Land Use Change from increased biofuels demand,GTAP,CGE,1st generation ethanol,Wheat,LUC,155,,
+Edwards,2010,Indirect Land Use Change from increased biofuels demand,GTAP,CGE,Biodiesel,Palm,LUC,47,,
+Edwards,2010,Indirect Land Use Change from increased biofuels demand,GTAP,CGE,Biodiesel,Oilseeds,LUC,57,,
+Flugge,2017,A life cycle analysis of the greenhouse gas emissions of corn based ethanol,GTAP,CGE,1st generation ethanol,Maize,ILUC,14,2,25
+Fritsche,2010,Sustainability Standards of Internationally Traded Biomass: The ILUC Factor as a Means to Hedge Risks of GHG Emissions from Indirecty Land Use Change,ILUC Factor,Empirical,1st generation ethanol,Sugarcane,ILUC,32,21,42
+Fritsche,2010,Sustainability Standards of Internationally Traded Biomass: The ILUC Factor as a Means to Hedge Risks of GHG Emissions from Indirecty Land Use Change,ILUC Factor,Empirical,1st generation ethanol,wheat,ILUC,51,34,67
+Fritsche,2010,Sustainability Standards of Internationally Traded Biomass: The ILUC Factor as a Means to Hedge Risks of GHG Emissions from Indirecty Land Use Change,ILUC Factor,Empirical,Advanced Ethanol,Short Rotation Coppice,ILUC,57,38,75
+Fritsche,2010,Sustainability Standards of Internationally Traded Biomass: The ILUC Factor as a Means to Hedge Risks of GHG Emissions from Indirecty Land Use Change,ILUC Factor,Empirical,Biodiesel,Rapeseed,ILUC,50,33,67
+Fritsche,2010,Sustainability Standards of Internationally Traded Biomass: The ILUC Factor as a Means to Hedge Risks of GHG Emissions from Indirecty Land Use Change,ILUC Factor,Empirical,Biodiesel,Soybean,ILUC,54,41,67
+Fritsche,2010,Sustainability Standards of Internationally Traded Biomass: The ILUC Factor as a Means to Hedge Risks of GHG Emissions from Indirecty Land Use Change,ILUC Factor,Empirical,Biodiesel,Palm,ILUC,27,18,36
+Hertel,2010,Effects of US Maize Ethanol on Global Land Use and Greenhouse Gas Emissions: Estimating Market-Mediated Responses,GTAP-Bio,CGE,1st generation ethanol,Maize,LUC,41,,
+Laborde,2011,Assessing the Land Use Change Consequences of European Biofuel Policies,IFPRI-MIRAGE,CGE,1st generation ethanol,Sugarcane,LUC,16,7,27
+Laborde,2011,Assessing the Land Use Change Consequences of European Biofuel Policies,IFPRI-MIRAGE,CGE,1st generation ethanol,Maize,LUC,10,6,13
+Laborde,2011,Assessing the Land Use Change Consequences of European Biofuel Policies,IFPRI-MIRAGE,CGE,1st generation ethanol,Wheat,LUC,14,8,18
+Laborde,2011,Assessing the Land Use Change Consequences of European Biofuel Policies,IFPRI-MIRAGE,CGE,1st generation ethanol,Sugarbeet,LUC,7,1,13
+Laborde,2011,Assessing the Land Use Change Consequences of European Biofuel Policies,IFPRI-MIRAGE,CGE,Biodiesel,Rapeseed,LUC,55,28,81
+Laborde,2011,Assessing the Land Use Change Consequences of European Biofuel Policies,IFPRI-MIRAGE,CGE,Biodiesel,Soybean,LUC,56,38,74
+Laborde,2011,Assessing the Land Use Change Consequences of European Biofuel Policies,IFPRI-MIRAGE,CGE,Biodiesel,Palm,LUC,54,47,60
+Laborde,2011,Assessing the Land Use Change Consequences of European Biofuel Policies,IFPRI-MIRAGE,CGE,Biodiesel,Sunflower,LUC,53,31,72
+Laborde,2014,Progress in estimates of ILUC with MIRAGE model,MIRAGE,CGE,1st generation ethanol,Sugarcane,ILUC,14,13,18
+Laborde,2014,Progress in estimates of ILUC with MIRAGE model,MIRAGE,CGE,1st generation ethanol,Maize,ILUC,12,10,15
+Laborde,2014,Progress in estimates of ILUC with MIRAGE model,MIRAGE,CGE,1st generation ethanol,Sugarbeet,ILUC,7,5,12
+Laborde,2014,Progress in estimates of ILUC with MIRAGE model,MIRAGE,CGE,Biodiesel,Rapeseed,ILUC,57,53,68
+Laborde,2014,Progress in estimates of ILUC with MIRAGE model,MIRAGE,CGE,Biodiesel,Soybean,ILUC,62,55,72
+Laborde,2014,Progress in estimates of ILUC with MIRAGE model,MIRAGE,CGE,Biodiesel,Palm,ILUC,57,54,64
+Laborde,2014,Progress in estimates of ILUC with MIRAGE model,MIRAGE,CGE,Biodiesel,Sunflower,ILUC,55,50,63
+Lywood,2013,Estimate of ILUC impact of EU rapeseed biodiesel based on historic data,Historical,Empirical,Biodiesel,Rapeseed,ILUC,-37,-94,21
+Melillo,2009,Indirect emissions from biofuels: How important?,EPPA,CGE,Advanced Ethanol,Eucalyptus/Poplas/Switchgrass,LUC,278,272,285
+Moreira,2014,Life Cycle Greenhouse Gas Emissions of Sugar Cane Renewable Jet Fuel,GREET - GTAP-BIO-ADV,CGE,1st generation ethanol,Sugarcane,LUC,32,15,48
+Mosnier,2013,"Alternative US biofuel mandates and global GHG emissions: The role of land use change, crop management and yield growth",GLOBIOM,PE,1st generation ethanol,Maize,ILUC,50,30,69
+Mullins,2011,Policy Implications of Uncertainty in Modeled Life-Cycle Greenhouse Gas Emissions of Biofuels,Monte Carlo on EPA method,LCA,1st generation ethanol,Maize,ILUC,74,38,113
+Mullins,2011,Policy Implications of Uncertainty in Modeled Life-Cycle Greenhouse Gas Emissions of Biofuels,Monte Carlo on EPA method,LCA,Advanced Ethanol,Switchgrass,ILUC,66,-10,155
+Overmars,2015,Estimates of indirest land use change from biofuels based on historical data,IMAGE-CSAM,Empirical,1st generation ethanol,Sugarcane,ILUC,12,5,19
+Overmars,2015,Estimates of indirest land use change from biofuels based on historical data,IMAGE-CSAM,Empirical,1st generation ethanol,Maize,ILUC,10,6,13
+Overmars,2015,Estimates of indirest land use change from biofuels based on historical data,IMAGE-CSAM,Empirical,1st generation ethanol,Wheat,ILUC,16,10,21
+Overmars,2015,Estimates of indirest land use change from biofuels based on historical data,IMAGE-CSAM,Empirical,1st generation ethanol,Sugarbeet,ILUC,12,7,19
+Overmars,2011,Indirect land use change emissions related to EU biofuel consumption: an analysis based on historical data,IMAGE,Empirical,1st generation ethanol,multiple,ILUC,79,26,154
+Overmars,2015,Estimates of indirest land use change from biofuels based on historical data,IMAGE-CSAM,Empirical,Advanced Ethanol,Wheat straw,ILUC,1,0,3
+Overmars,2015,Estimates of indirest land use change from biofuels based on historical data,IMAGE-CSAM,Empirical,Advanced Ethanol,Willow-poplar,ILUC,3,2,4
+Overmars,2015,Estimates of indirest land use change from biofuels based on historical data,IMAGE-CSAM,Empirical,Advanced Ethanol,Switchgrass-miscanthus,ILUC,,1,3
+Overmars,2015,Estimates of indirest land use change from biofuels based on historical data,IMAGE-CSAM,Empirical,Biodiesel,Rapeseed,ILUC,204,170,241
+Overmars,2015,Estimates of indirest land use change from biofuels based on historical data,IMAGE-CSAM,Empirical,Biodiesel,Soybean,ILUC,224,187,257
+Overmars,2015,Estimates of indirest land use change from biofuels based on historical data,IMAGE-CSAM,Empirical,Biodiesel,Palm,ILUC,201,171,249
+Overmars,2015,Estimates of indirest land use change from biofuels based on historical data,IMAGE-CSAM,Empirical,Biodiesel,Sunflower,ILUC,206,171,243
+Overmars,2011,Indirect land use change emissions related to EU biofuel consumption: an analysis based on historical data,IMAGE,Empirical,Biodiesel,multiple,ILUC,97,30,204
+Overmars,2015,Estimates of indirest land use change from biofuels based on historical data,IMAGE-CSAM,Empirical,Biodiesel,Jatropha,ILUC,93,58,130
+Plevin,2015,Carbon Accounting and Economic Model Uncertainty of Emissions from Biofuels-Induced Land Use Change,GTAP-BIO-ADV,CGE,1st generation ethanol,Sugarcane,ILUC,39,6,84
+Plevin,2015,Carbon Accounting and Economic Model Uncertainty of Emissions from Biofuels-Induced Land Use Change,GTAP-BIO-ADV,CGE,1st generation ethanol,Maize,ILUC,62,39,102
+Plevin,2015,Carbon Accounting and Economic Model Uncertainty of Emissions from Biofuels-Induced Land Use Change,GTAP-BIO-ADV,CGE,Biodiesel,Soybean,ILUC,60,32,107
+Plevin,2010,"The greenhouse gas emissions from indirect land use change are uncertain, but potentially much greater than previously estimated",Reduced form model,CD,1st generation ethanol,Maize,ILUC,57,21,142
+Prapaspongsa,2016,Risks of indirect land use impacts and greenhouse gas consequences: an assessment of Thailand's bioethanol policy,2.-0 LCA iLUC model,LCA,1st generation ethanol,Cassava-Molasses,ILUC,45,30,68
+Searchinger,2008,Use of U.S. Croplands for Biofuels Increases Greenhouse Gases Through Emissions from Land-Use Change,FAPRI-CARD,PE,1st generation ethanol,Maize,ILUC,156,,
+Taheripour,2013,Induced Land Use Emissions due to First and Second Generation Biofuels and Uncertainty in Land Use Emission Factors,GTAP-BIO,CGE,1st generation ethanol,Maize,LUC,17,13,23
+Taheripour,2013,Induced Land Use Emissions due to First and Second Generation Biofuels and Uncertainty in Land Use Emission Factors,GTAP-BIO,CGE,Advanced Ethanol,Corn Stover,LUC,-1,-2,-1
+Taheripour,2013,Induced Land Use Emissions due to First and Second Generation Biofuels and Uncertainty in Land Use Emission Factors,GTAP-BIO,CGE,Advanced Ethanol,Miscanthus,LUC,17,6,32
+Taheripour,2013,Induced Land Use Emissions due to First and Second Generation Biofuels and Uncertainty in Land Use Emission Factors,GTAP-BIO,CGE,Advanced Ethanol,Switchgrass,LUC,44,20,74
+Taheripour,2010,Land Use Changes and Consequent CO2 Emissions due to U.S. Corn Ethanol Production: A Comprehensive Analysis. Final Report. Department of Agriculture Economics Purdue University.,GTAP,CGE,1st generation ethanol,Maize,ILUC,18,14,23
+Valin,2015,The land use change impact of biofuels consumed in the EU,GLOBIOM,PE,1st generation ethanol,Sugarcane,LUC,17,-20,175
+Valin,2015,The land use change impact of biofuels consumed in the EU,GLOBIOM,PE,1st generation ethanol,Maize,LUC,14,-75,60
+Valin,2015,The land use change impact of biofuels consumed in the EU,GLOBIOM,PE,1st generation ethanol,Wheat,LUC,34,-40,70
+Valin,2015,The land use change impact of biofuels consumed in the EU,GLOBIOM,PE,1st generation ethanol,Sugarbeet,LUC,15,-15,35
+Valin,2015,The land use change impact of biofuels consumed in the EU,GLOBIOM,PE,1st generation ethanol,Barley,LUC,38,-50,90
+Valin,2015,The land use change impact of biofuels consumed in the EU,GLOBIOM,PE,1st generation ethanol,Maize Sillage,LUC,21,,
+Valin,2015,The land use change impact of biofuels consumed in the EU,GLOBIOM,PE,Advanced Ethanol,Cereal straw,LUC,16,0,30
+Valin,2015,The land use change impact of biofuels consumed in the EU,GLOBIOM,PE,Advanced Ethanol,Perrenials,LUC,-12,-30,5
+Valin,2015,The land use change impact of biofuels consumed in the EU,GLOBIOM,PE,Advanced Ethanol,Short Rotation Coppice,LUC,-29,-10,-50
+Valin,2015,The land use change impact of biofuels consumed in the EU,GLOBIOM,PE,Advanced Ethanol,Forest Residues,LUC,17,,
+Valin,2015,The land use change impact of biofuels consumed in the EU,GLOBIOM,PE,Biodiesel,Rapeseed,LUC,65,-10,130
+Valin,2015,The land use change impact of biofuels consumed in the EU,GLOBIOM,PE,Biodiesel,Soybean,LUC,150,10,400
+Valin,2015,The land use change impact of biofuels consumed in the EU,GLOBIOM,PE,Biodiesel,Palm,LUC,231,20,400
+Valin,2015,The land use change impact of biofuels consumed in the EU,GLOBIOM,PE,Biodiesel,Sunflower,LUC,63,0,170
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
