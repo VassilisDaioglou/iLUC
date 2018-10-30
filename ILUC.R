@@ -245,7 +245,7 @@ VAR
 
 VAR2 <- ggplot(Ranges) + 
   geom_errorbar(mapping=aes(x=StudyID_order, ymin=min, ymax=max), width=0.2, size=0.2, color="black") +
-  geom_point(aes(x=StudyID_order, y=mean, colour=METHOD, shape=METHOD), size=1) +
+  geom_point(aes(x=StudyID_order, y=mean, colour=METHOD, shape=METHOD), size=1.2) +
   geom_hline(yintercept=0,size = 0.1, colour='black') + 
   ylab(expression("ILUC Factor, kgCO"[2]*"-eq/GJ"[Biofuel])) + xlab(expression("")) +
   theme_bw() + theme(strip.text.x = element_text(size = 7, face="bold")) +
