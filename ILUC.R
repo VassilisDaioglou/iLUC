@@ -22,9 +22,9 @@ library(gdata)
 # ---- DATA ----
 ppi <- 300
 # set directory path 
-setwd("~/disks/y/ontwapps/Timer/Users/Vassilis/Projects - documents/ILUC/R-Scripts/")
+setwd("~/disks/y/User/daioglouv/Projects - Documents/iLUC/R-Scripts/")
 # Read Data File
-DATA=read.csv("data/ILUCfactor_4R.csv", sep=",", dec=".", stringsAsFactors = FALSE, colClasses = "character")
+DATA=read.csv("data/ILUCfactor_4R.csv", sep=";", dec=".", stringsAsFactors = FALSE, colClasses = "character")
 DATA[] <- lapply(DATA, as.character)
 DATA=melt(DATA, id.vars=c("AUTHOR","YEAR","TITLE","MODEL","METHOD","BIOFUEL","FEEDSTOCK","TYPE"), na.rm=TRUE)
 DATA$YEAR = as.numeric(substr(DATA$YEAR, start=1, stop=4))
@@ -203,7 +203,7 @@ ILUC2 <- ggplot(DATA2) +
   geom_hline(yintercept=0,size = 0.1, colour='black') +
   ggtitle("ILUC factors across technologies and assessment methods") + theme(plot.title = element_text(face="bold", size=8)) +
   ylab(expression("ILUC Factor, kgCO"[2]*"-eq/GJ"[Biofuel])) + xlab("Year of Publication") +
-  scale_x_continuous(breaks=seq(2008, 2017,1), limits=c(2008,2017)) +
+  scale_x_continuous(breaks=seq(2008,max(DATA2$YEAR),1), limits=c(2008,max(DATA2$YEAR))) +
   theme_bw() +
   theme(strip.text.x = element_text(size = 7, face="bold")) +
   theme(text= element_text(size=7, face="plain"), axis.text.x = element_text(angle=66, size=7, hjust=1), axis.text.y = element_text(size=7)) +
@@ -270,7 +270,7 @@ Ethanol <- ggplot(subset(DATA2, BIOFUEL=="1st generation ethanol"|BIOFUEL=="Adva
   geom_hline(yintercept=0,size = 0.1, colour='black') + 
   ggtitle("Ethanol") + theme(plot.title = element_text(face="bold", size=8)) +
   ylab(expression("ILUC Factor, kgCO"[2]*"-eq/GJ"[Biofuel])) + xlab("Year of Publication") +
-  scale_x_continuous(breaks=seq(2008, 2017,1), limits=c(2008,2017)) +
+  scale_x_continuous(breaks=seq(2008,max(DATA2$YEAR),1), limits=c(2008,max(DATA2$YEAR))) +
   theme_bw() +
   theme(strip.text.x = element_text(size = 7, face="bold")) +
   theme(text= element_text(size=7, face="plain"), axis.text.x = element_text(angle=66, size=7, hjust=1), axis.text.y = element_text(size=7)) +
@@ -292,7 +292,7 @@ Biodiesel <- ggplot(subset(DATA2, BIOFUEL=="Biodiesel")) +
   geom_hline(yintercept=0,size = 0.1, colour='black') +
   ggtitle("Biodiesel") + theme(plot.title = element_text(face="bold", size=8)) +
   ylab(expression("ILUC Factor, kgCO"[2]*"-eq/GJ"[Biofuel])) + xlab("Year of publication") +
-  scale_x_continuous(breaks=seq(2008, 2017,1), limits=c(2008,2017)) +
+  scale_x_continuous(breaks=seq(2008,max(DATA2$YEAR),1), limits=c(2008,max(DATA2$YEAR))) +
   theme_bw() +
   theme(strip.text.x = element_text(size = 7, face="bold")) +
   theme(text= element_text(size=7, face="plain"), axis.text.x = element_text(angle=66, size=7, hjust=1), axis.text.y = element_text(size=7)) +
@@ -316,24 +316,24 @@ rm(layout)
 
 #
 # # ---- OUTPUT: FOR DRAFT ----
-# write.xlsx(StatsFuel, file="output/StatsFuel.xlsx", row.names=FALSE, showNA = TRUE)
-# 
-# png("output/Fig_all.png", width=6*ppi, height=3.5*ppi, res=ppi)
-# print(plot(ILUC))
-# dev.off()
-# #
-# png("output/Fig_all_year.png", width=5*ppi, height=5*ppi, res=ppi)
-# print(plot(ILUC2))
-# dev.off()
-# #
-# png("output/Fig_all_year2.png", width=6*ppi, height=5*ppi, res=ppi)
-# print(plot(ILUC3))
-# dev.off()
-# 
-# png("output/Variation.png", width=6*ppi, height=5*ppi, res=ppi)
-# print(plot(VAR))
-# dev.off()
+write.xlsx(StatsFuel, file="output/StatsFuel.xlsx", row.names=FALSE, showNA = TRUE)
+
+png("output/Fig_all.png", width=6*ppi, height=3.5*ppi, res=ppi)
+print(plot(ILUC))
+dev.off()
 #
-# png("output/Variation2.png", width=6*ppi, height=5*ppi, res=ppi)
-# print(plot(VAR2))
-# dev.off()
+png("output/Fig_all_year.png", width=5*ppi, height=5*ppi, res=ppi)
+print(plot(ILUC2))
+dev.off()
+#
+png("output/Fig_all_year2.png", width=6*ppi, height=5*ppi, res=ppi)
+print(plot(ILUC3))
+dev.off()
+
+png("output/Variation.png", width=6*ppi, height=5*ppi, res=ppi)
+print(plot(VAR))
+dev.off()
+
+png("output/Variation2.png", width=6*ppi, height=5*ppi, res=ppi)
+print(plot(VAR2))
+dev.off()
