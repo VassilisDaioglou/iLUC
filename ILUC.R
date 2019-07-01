@@ -22,10 +22,11 @@ library(gdata)
 # ---- DATA ----
 ppi <- 300
 # set directory path 
-setwd("~/disks/y/User/daioglouv/Projects - Documents/iLUC/R-Scripts/")
+setwd("C:/Users/Asus/Documents/Github/iLUC/")
 # Read Data File
 DATA=read.csv("data/ILUCfactor_4R.csv", sep=";", dec=".", stringsAsFactors = FALSE, colClasses = "character")
 DATA[] <- lapply(DATA, as.character)
+colnames(DATA)[1] <- "AUTHOR"
 DATA=melt(DATA, id.vars=c("AUTHOR","YEAR","TITLE","MODEL","METHOD","BIOFUEL","FEEDSTOCK","TYPE"), na.rm=TRUE)
 DATA$YEAR = as.numeric(substr(DATA$YEAR, start=1, stop=4))
 DATA$value = as.numeric(substr(DATA$value, start=1, stop=4))
