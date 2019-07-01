@@ -264,6 +264,26 @@ VAR2 <- ggplot(Ranges) +
   facet_wrap(~TechID_order)
 VAR2
 
+VAR3 <- ggplot(Ranges) + 
+  geom_errorbar(mapping=aes(x=TechID_order, ymin=min, ymax=max), width=0.2, size=0.2, color="black") +
+  geom_point(aes(x=TechID_order, y=mean, colour=StudyID_order, shape=StudyID_order), size=1.2) +
+  geom_hline(yintercept=0,size = 0.1, colour='black') + 
+  ylab(expression("ILUC Factor, kgCO"[2]*"-eq/GJ"[Biofuel])) + xlab(expression("")) +
+  theme_bw() + theme(strip.text.x = element_text(size = 7, face="bold")) +
+  theme(text= element_text(size=7, face="plain"), axis.text.x = element_text(angle=75, size=7, hjust=1), axis.text.y = element_text(size=7)) +
+  theme(panel.border = element_rect(colour = "black", fill=NA, size=0.2), panel.grid.minor = element_blank()) +
+  theme(legend.position="bottom", legend.text=element_text(size=7), legend.title=element_text(face="bold.italic")) +
+  # scale_colour_manual(values=c("cornsilk4","blue","forestgreen","cornflowerblue"),
+  #                     name ="",
+  #                     breaks=c("LCA","CGE","CD","PE","Empirical"),
+  #                     labels=c("HLCA","CGE","Causal Descriptive","PE","Empirical")
+  # ) +
+  # scale_shape_manual(values=c(0,1,2,3,4,5,6,7,8,9),name="",
+  #                    breaks=c("LCA","CGE","CD","PE","Empirical"),
+  #                    labels=c("HLCA","CGE","Causal Descriptive","PE","Empirical")) +
+  facet_wrap(~METHOD)
+VAR3
+
 #
 # ---- > FIG: f(t,fuel) ----
 Ethanol <- ggplot(subset(DATA2, BIOFUEL=="1st generation ethanol"|BIOFUEL=="Advanced Ethanol")) + 
@@ -337,4 +357,8 @@ dev.off()
 
 png("output/Variation2.png", width=6*ppi, height=5*ppi, res=ppi)
 print(plot(VAR2))
+dev.off()
+
+png("output/Variation3.png", width=6*ppi, height=5*ppi, res=ppi)
+print(plot(VAR3))
 dev.off()
