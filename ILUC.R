@@ -337,28 +337,36 @@ rm(layout)
 
 #
 # # ---- OUTPUT: FOR DRAFT ----
-write.xlsx(StatsFuel, file="output/StatsFuel.xlsx", row.names=FALSE, showNA = TRUE)
-
-png("output/Fig_all.png", width=6*ppi, height=3.5*ppi, res=ppi)
-print(plot(ILUC))
-dev.off()
+# write.xlsx(StatsFuel, file="output/StatsFuel.xlsx", row.names=FALSE, showNA = TRUE)
 #
-png("output/Fig_all_year.png", width=5*ppi, height=5*ppi, res=ppi)
-print(plot(ILUC2))
-dev.off()
-#
-png("output/Fig_all_year2.png", width=6*ppi, height=5*ppi, res=ppi)
-print(plot(ILUC3))
-dev.off()
-
-png("output/Variation.png", width=6*ppi, height=5*ppi, res=ppi)
-print(plot(VAR))
-dev.off()
-
-png("output/Variation2.png", width=6*ppi, height=5*ppi, res=ppi)
-print(plot(VAR2))
-dev.off()
-
-png("output/Variation3.png", width=6*ppi, height=5*ppi, res=ppi)
-print(plot(VAR3))
-dev.off()
+# tiff('output/Daioglou_Fig1.tiff', units="in", width=6, height=3.5, res=ppi, compression = 'lzw')
+# print(plot(ILUC))
+# dev.off()
+# #
+# tiff("output/Daioglou_Fig2.tiff", units="in", width=6, height=5, res=ppi, compression = 'lzw')
+# print(plot(VAR2))
+# dev.off()
+# 
+# png("output/Fig_all.png", width=6*ppi, height=3.5*ppi, res=ppi)
+# print(plot(ILUC))
+# dev.off()
+# #
+# png("output/Fig_all_year.png", width=5*ppi, height=5*ppi, res=ppi)
+# print(plot(ILUC2))
+# dev.off()
+# #
+# png("output/Fig_all_year2.png", width=6*ppi, height=5*ppi, res=ppi)
+# print(plot(ILUC3))
+# dev.off()
+# 
+# png("output/Variation.png", width=6*ppi, height=5*ppi, res=ppi)
+# print(plot(VAR))
+# dev.off()
+# 
+# png("output/Variation2.png", width=6*ppi, height=5*ppi, res=ppi)
+# print(plot(VAR2))
+# dev.off()
+# 
+# png("output/Variation3.png", width=6*ppi, height=5*ppi, res=ppi)
+# print(plot(VAR3))
+# dev.off()
