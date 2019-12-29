@@ -20,7 +20,7 @@ library(gdata)
 
 #
 # ---- DATA ----
-ppi <- 300
+ppi <- 600
 # set directory path 
 setwd("C:/Users/Asus/Documents/Github/iLUC/")
 # Read Data File
@@ -342,7 +342,7 @@ rm(layout)
 # tiff('output/Daioglou_Fig1.tiff', units="in", width=6, height=3.5, res=ppi, compression = 'lzw')
 # print(plot(ILUC))
 # dev.off()
-# #
+# # #
 # tiff("output/Daioglou_Fig2.tiff", units="in", width=6, height=5, res=ppi, compression = 'lzw')
 # print(plot(VAR2))
 # dev.off()
