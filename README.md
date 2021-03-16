@@ -5,7 +5,7 @@ Repository of R script to process the results of the literature review of Indire
 *Date: December 2019*\
 *Contact: v.daioglou@uu.nl | [@vassican](https://twitter.com/vassican)*
 
-![](Fig_all_cropped.png)\
+![](Fig_all_cropped.png)
 
 ## Process
 This script processes the results from the [literature review](https://ec.europa.eu/energy/sites/ener/files/documents/20170816_iluc_finalstudyreport.pdf) conducted for the *European Comission - DG Energy* concerning indirect land use change. 
