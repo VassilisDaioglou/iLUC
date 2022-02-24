@@ -64,17 +64,18 @@ DATA2$FeedID <-gsub( "multiple","Other",DATA2$FeedID,fixed=F)
 
 DATA2$TechID = paste(DATA2$FeedID, DATA2$FuelID)
 
-DATA2$TechID_order = factor(DATA2$TechID, levels=c("Sugarcane Ethanol",
-                                             "Maize Ethanol",
-                                             "Sugarbeet Ethanol",
-                                             "Wheat Ethanol",
-                                             "Advanced Ethanol",
-                                             "Other Ethanol",
-                                             "Rapeseed Biodiesel",
-                                             "Soybean Biodiesel",
-                                             "Palm Biodiesel",
-                                             "Sunflower Biodiesel",
-                                             "Other Biodiesel"))
+DATA2$TechID_order = factor(DATA2$TechID, levels=c("Rapeseed Biodiesel",
+                                                   "Soybean Biodiesel",
+                                                   "Palm Biodiesel",
+                                                   "Sunflower Biodiesel",
+                                                   "Other Biodiesel",
+                                                   "Advanced Ethanol",
+                                                   "Sugarcane Ethanol",
+                                                   "Maize Ethanol",
+                                                   "Wheat Ethanol",
+                                                   "Sugarbeet Ethanol",
+                                                   "Other Ethanol"
+                                             ))
 
 DATA2$FeedID_order = factor(DATA2$FeedID, levels=c("Sugarcane",
                                                    "Maize",
